@@ -1,3 +1,2 @@
 # Add  code here!
-def prime?(1...100)
-  
+def prime?('1...100')
