@@ -1,2 +1,4 @@
 # Add  code here!
-def prime?('1...100')
+def prime?(num)
+num = [1...100]
+num.prime? {
