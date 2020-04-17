@@ -2,11 +2,13 @@
 
 
 def prime?(num)
-  prime_num = (2..n-1).to_a 
+  prime_n = (2..n-1).to_a 
   
-  if num < 2 
+  if n < 2 
     return false
-  else prime_num.each
-    
+  else prime_n.each do |integer|
+    if n % integer == 0 
+      return false
+      
   end
   
