@@ -9,6 +9,9 @@ def prime?(num)
   else prime_n.each do |integer|
     if n % integer == 0 
       return false
+    end
+  end 
+
       
   end
   
