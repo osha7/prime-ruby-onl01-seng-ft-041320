@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(num)
-  num = ['1...100']
+  num = []
+  num.prime? { |i| puts "true"}
   
 end
